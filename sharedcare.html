@@ -42,49 +42,145 @@
         </div>
       </div>
 
-      <div class="detail-hero-visual sharedcare-detail-visual" aria-hidden="true">
-        <img src="img/sharedcareblue.png" alt="" class="sharedcare-logo">
+      <div class="detail-hero-visual sharedcare-detail-visual">
+        <div class="detail-visual-frame">
+          <p class="detail-visual-label">Product Visual</p>
+          <div class="detail-visual-stage">
+            <img
+              src="img/sharedcare-mvp/Dashboard.png"
+              alt="SharedCare dashboard showing assigned residents, pending logs, messages, visits, and a daily checklist."
+              class="sharedcare-hero-shot"
+            >
+          </div>
+          <p class="detail-visual-note">A caregiver dashboard that centralizes daily tasks, resident updates, visits, and communication in one place.</p>
+        </div>
       </div>
     </section>
 
-    <section class="detail-section">
+    <section class="detail-section detail-section-minimal">
       <h2>Overview</h2>
-      <p>
+      <p class="detail-lede">
         SharedCare addresses the communication gap families often feel when a loved one
         is in long-term care. Instead of only receiving information during urgent moments,
         families get clearer day-to-day updates through a secure portal designed to reduce
         anxiety, prevent miscommunication, and support sustainable workflows for busy care teams.
       </p>
+      <div class="sharedcare-gallery sharedcare-gallery-two">
+        <figure class="sharedcare-shot">
+          <img
+            src="img/sharedcare-mvp/Resident Page.png"
+            alt="SharedCare resident directory with searchable resident cards and daily log update timestamps."
+            class="sharedcare-shot-image"
+          >
+          <figcaption>Resident search makes it easier for staff to quickly locate the right record and latest update.</figcaption>
+        </figure>
+        <figure class="sharedcare-shot">
+          <img
+            src="img/sharedcare-mvp/Resident Search Lillian Details.png"
+            alt="SharedCare resident detail page showing profile information, diagnoses, medications, and personal care notes."
+            class="sharedcare-shot-image"
+          >
+          <figcaption>Profile details bring care context, history, and plain-language notes together on one screen.</figcaption>
+        </figure>
+      </div>
     </section>
 
-    <section class="detail-section">
-      <h2>Team Contributions</h2>
-      <ul class="detail-list">
-        <li>Defined the MVP around resident profiles, secure messaging, permissions, and plain-language explanations so the scope stayed focused on the highest-value caregiver and family needs.</li>
-        <li>Mapped caregiver and family communication workflows to reduce scattered updates and create a more predictable check-in experience for authorized relatives.</li>
-        <li>Prioritized privacy-first requirements, including resident-authorized access decisions and HIPAA-aligned handling, so trust and safety were built into the product from the start.</li>
-        <li>Reviewed the end-to-end experience together and refined feature flows, which improved clarity for busy care teams and reduced confusion for family members reading updates.</li>
-      </ul>
-    </section>
-
-    <section class="detail-section">
+    <section class="detail-section detail-section-highlight">
       <h2>My Contributions & Learnings</h2>
-      <ul class="detail-list">
-        <li>Built the front-end and back-end foundation for the portal, which connected resident data, messaging, and access control features into one unified experience.</li>
-        <li>Implemented the resident profile structure for appointments, medications, lab results, allergies, and prior documentation, which made important care context easier to review in one place.</li>
-        <li>Developed secure permission logic for resident-authorized visibility, which reinforced privacy expectations and clarified who could access specific information.</li>
-        <li>Translated complex care details into clearer interface language, which improved readability for families and strengthened my ability to design for high-stakes communication.</li>
+      <ul class="contribution-list">
+        <li><strong>Built the portal foundation across front end and back end.</strong><span>I connected resident data, secure messaging, and permissions into one product flow, which made the experience feel unified instead of fragmented.</span></li>
+        <li><strong>Structured the resident profile experience.</strong><span>I organized appointments, medications, lab results, allergies, and prior documentation so important care context could be reviewed in one place.</span></li>
+        <li><strong>Implemented resident-authorized access logic.</strong><span>I translated privacy requirements into clearer visibility rules, which reinforced trust and limited who could view sensitive information.</span></li>
+        <li><strong>Learned to design for high-stakes clarity.</strong><span>Turning care information into plain-language interface content strengthened how I build products where comprehension and reassurance both matter.</span></li>
       </ul>
+      <div class="sharedcare-gallery sharedcare-gallery-two">
+        <figure class="sharedcare-shot">
+          <img
+            src="img/sharedcare-mvp/patient logs - caregiver view1.png"
+            alt="SharedCare caregiver daily logs table with resident names, rooms, caregivers, mood indicators, dates, and actions."
+            class="sharedcare-shot-image"
+          >
+          <figcaption>Caregiver-facing logs support structured updates and faster review of resident status changes.</figcaption>
+        </figure>
+        <figure class="sharedcare-shot">
+          <img
+            src="img/sharedcare-mvp/Todays Visits 1.png"
+            alt="SharedCare appointments view showing today's visits on a timeline with pending appointment approvals."
+            class="sharedcare-shot-image"
+          >
+          <figcaption>Visit scheduling keeps day-to-day coordination visible and easier to act on at a glance.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="detail-section detail-section-soft">
+      <h2>Team Contributions</h2>
+      <ul class="contribution-list">
+        <li><strong>Defined the MVP around the most urgent communication gaps.</strong><span>The team prioritized resident profiles, secure messaging, permissions, and plain-language explanations so the first release stayed focused and credible.</span></li>
+        <li><strong>Mapped caregiver-to-family update flows.</strong><span>We shaped the experience around predictable check-ins, which reduced reliance on fragmented updates and one-off status calls.</span></li>
+        <li><strong>Built privacy into product decisions early.</strong><span>The team aligned on resident consent and HIPAA-aware handling from the start, which made trust a core part of the experience rather than a late add-on.</span></li>
+        <li><strong>Refined the product around clarity under pressure.</strong><span>Reviewing flows together helped simplify communication for busy care teams and made updates easier for families to understand quickly.</span></li>
+      </ul>
+    </section>
+
+    <section class="detail-section">
+      <h2>Impact</h2>
+      <div class="impact-grid">
+        <article class="impact-card">
+          <h3>Family communication became more predictable</h3>
+          <p>Instead of only hearing updates during urgent moments, families would have a clearer place to check in on day-to-day well-being.</p>
+        </article>
+        <article class="impact-card">
+          <h3>Trust and privacy became more visible</h3>
+          <p>Resident-authorized access and plain-language explanations made the experience feel safer, clearer, and easier to navigate.</p>
+        </article>
+      </div>
     </section>
 
     <section class="detail-section">
       <h2>MVP Features</h2>
-      <ol class="detail-list">
-        <li>Resident profile with appointments, medications, lab results, allergies, and prior care documentation.</li>
-        <li>Secure communication channel between the care team and family or resident.</li>
-        <li>Resident-authorized access controls for deciding who can see specific information.</li>
-        <li>Plain-language explanations that make care information easier for families to understand.</li>
-      </ol>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img
+            src="img/sharedcare-mvp/Resident Search Lillian Details.png"
+            alt="Resident profile view in SharedCare with diagnoses, medications, and care notes."
+            class="feature-card-media"
+          >
+          <span>Feature 01</span>
+          <h3>Resident profile</h3>
+          <p>Appointments, medications, lab results, allergies, and prior care documentation stay together in one organized record.</p>
+        </article>
+        <article class="feature-card">
+          <img
+            src="img/sharedcare-mvp/Messages Robert.png"
+            alt="Family messaging view in SharedCare showing a conversation between care staff and an authorized family contact."
+            class="feature-card-media"
+          >
+          <span>Feature 02</span>
+          <h3>Secure communication</h3>
+          <p>A dedicated channel gives care teams and authorized families a clearer place to share updates without scattered messages.</p>
+        </article>
+        <article class="feature-card">
+          <img
+            src="img/sharedcare-mvp/patient logs - caregiver view1.png"
+            alt="Caregiver log interface in SharedCare used to review resident updates within a staff-facing workflow."
+            class="feature-card-media"
+          >
+          <span>Feature 03</span>
+          <h3>Resident-authorized access</h3>
+          <p>Permission controls define who can view specific information, supporting privacy-first communication choices.</p>
+        </article>
+        <article class="feature-card">
+          <img
+            src="img/sharedcare-mvp/Todays Visits 1.png"
+            alt="SharedCare visits screen showing today's schedule and upcoming appointment approvals."
+            class="feature-card-media"
+          >
+          <span>Feature 04</span>
+          <h3>Plain-language explanations</h3>
+          <p>Care information is translated into more understandable language so families can absorb updates with less confusion.</p>
+        </article>
+      </div>
     </section>
   </main>
 </body>
