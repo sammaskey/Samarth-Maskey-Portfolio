@@ -365,95 +365,18 @@ a {
 }
 
 .relive-visual {
-  position: relative;
-  isolation: isolate;
-}
-
-.relive-panel {
-  width: min(100%, 260px);
-  height: 158px;
-  border-radius: 2px;
-  background:
-    radial-gradient(circle at 25% 30%, #fff 0 16px, transparent 17px),
-    radial-gradient(circle at 70% 66%, #fff 0 12px, transparent 13px),
-    linear-gradient(135deg, #d8ddff, #bdd3ff);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
-  position: relative;
-}
-
-.relive-panel::before {
-  content: "";
-  position: absolute;
-  inset: 10px auto 10px 10px;
-  width: 95px;
-  border-radius: 8px;
-  background:
-    radial-gradient(circle at 22px 18px, #6db0ff 0 3px, transparent 4px),
-    radial-gradient(circle at 58px 46px, #5be37d 0 3px, transparent 4px),
-    linear-gradient(135deg, #f9f9fa 0%, #ececef 100%);
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
-}
-
-.relive-panel::after {
-  content: "";
-  position: absolute;
-  inset: 14px 14px 14px auto;
-  width: 122px;
-  border-radius: 10px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.1)),
-    linear-gradient(120deg, #8bd2ff, #a5b1ff 60%, #7e9bff);
-}
-
-.relive-phone {
-  position: absolute;
-  bottom: 8px;
-  width: 94px;
-  height: 156px;
-  border-radius: 18px;
-  border: 3px solid #18191c;
-  background: linear-gradient(180deg, #d7d7de, #f4f4f6);
-  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
-}
-
-.relive-phone::before {
-  content: "";
-  position: absolute;
-  top: 7px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 38px;
-  height: 10px;
-  border-radius: 999px;
-  background: #0f1114;
-}
-
-.relive-phone span {
-  position: absolute;
-  inset: 0;
   display: grid;
   place-items: center;
-  color: rgba(255, 255, 255, 0.92);
-  font-size: 0.95rem;
-  font-weight: 500;
-  letter-spacing: -0.02em;
 }
 
-.relive-phone-back {
-  right: 68px;
-  z-index: 2;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.05)),
-    linear-gradient(160deg, #f6ad7f 10%, #7fc8ff 55%, #7b79ff 100%);
-}
-
-.relive-phone-front {
-  right: 18px;
-  z-index: 3;
-  background:
-    radial-gradient(circle at 20% 80%, rgba(255, 146, 95, 0.9), transparent 44%),
-    radial-gradient(circle at 70% 20%, rgba(149, 177, 255, 0.9), transparent 46%),
-    linear-gradient(170deg, #cfd0d5 0%, #7cb0ff 55%, #4758ff 100%);
+.relive-card-shot {
+  width: min(100%, 360px);
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  box-shadow:
+    0 10px 22px rgba(20, 24, 32, 0.08),
+    0 0 0 1px rgba(30, 35, 45, 0.08);
 }
 
 .techzone-visual {
@@ -639,24 +562,17 @@ a {
 }
 
 .relive-detail-visual .detail-visual-stage {
-  position: relative;
+  align-content: center;
 }
 
-.relive-detail-visual .relive-panel {
-  width: min(100%, 320px);
-  height: 210px;
-}
-
-.relive-detail-visual .relive-phone {
-  bottom: 20px;
-}
-
-.relive-detail-visual .relive-phone-back {
-  right: 95px;
-}
-
-.relive-detail-visual .relive-phone-front {
-  right: 34px;
+.relive-hero-shot {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow:
+    0 14px 28px rgba(20, 24, 32, 0.08),
+    0 0 0 1px rgba(30, 35, 45, 0.08);
 }
 
 .techzone-detail-visual .techzone-wordmark {
@@ -1074,22 +990,8 @@ a {
     font-size: 0.93rem;
   }
 
-  .relive-panel {
-    width: 220px;
-    height: 136px;
-  }
-
-  .relive-phone {
-    width: 78px;
-    height: 132px;
-  }
-
-  .relive-phone-back {
-    right: 56px;
-  }
-
-  .relive-phone-front {
-    right: 10px;
+  .relive-card-shot {
+    width: min(100%, 290px);
   }
 
   .techzone-wordmark {
@@ -1144,23 +1046,8 @@ a {
     min-height: 160px;
   }
 
-  .relive-detail-visual .relive-panel {
-    width: 245px;
-    height: 160px;
-  }
-
-  .relive-detail-visual .relive-phone {
-    width: 76px;
-    height: 128px;
-    bottom: 12px;
-  }
-
-  .relive-detail-visual .relive-phone-back {
-    right: 58px;
-  }
-
-  .relive-detail-visual .relive-phone-front {
-    right: 8px;
+  .relive-hero-shot {
+    border-radius: 14px;
   }
 
   .techzone-detail-visual .techzone-wordmark {
